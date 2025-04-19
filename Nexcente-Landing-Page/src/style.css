@@ -14,7 +14,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 10%;
+  padding: 20px 10%;
   background-color: white;
 }
 .N-Logo{
@@ -61,6 +61,7 @@ button span{
   padding: 8px;
 }
 .conteiner {
+  background-color: rgb(235, 235, 235);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -121,3 +122,8 @@ button span{
   background-color: #28a745;
 }
 
+.act-3 .center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
