@@ -127,3 +127,18 @@ button span{
   align-items: center;
   justify-content: center;
 }
+.act-3 p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.act-3 .logos-center{
+  padding: px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  gap: 1%;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 800px;
+}
