@@ -42,7 +42,7 @@ header {
 nav a {
   margin: 0 15px;
   text-decoration: none;
-  color: #7d7987;
+  color: black;
   position: relative;
 }
 
@@ -50,7 +50,7 @@ nav button{
   background-color: #4CAF4F;
   color: #fff;
   border: none;
-  border-radius: 1px;
+  border-radius: 3px;
   font-family: sans-serif;
   display: inline-flex;
   align-items: center;
@@ -74,6 +74,7 @@ button span{
   max-width: 500px;
 }
 .text h1{
+  color: #4D4D4D;
   font-size: xx-large;
   margin-bottom: 20px;
 }
@@ -81,13 +82,14 @@ button span{
   color: #28a745;
 }
 .text p{
+  color: #717171;
   margin-bottom: 20px;
 }
 .text button{
   background-color: #4CAF4F;
   color: #fff;
   border: none;
-  border-radius: 1px;
+  border-radius: 3px;
   font-family: sans-serif;
   display: inline-flex;
   align-items: center;
@@ -97,11 +99,7 @@ button span{
 .text button span{
   padding: 12px 20px;
 }
-/* .reticencias img{
-  padding: 80px;
-  align-items: center;
-  justify-content: center;
-} */
+
 .dots {
   display: flex;
   justify-content: center;
@@ -123,6 +121,7 @@ button span{
 }
 
 .act-3 .center{
+  padding-top: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -142,3 +141,78 @@ button span{
   margin: 0 auto;
   max-width: 800px;
 }
+
+
+
+/* parte da section 4 com display grid */
+
+.sec-4 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  padding: 40px 40px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.sec-4 .card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  padding: 24px 30px;
+
+}
+
+.sec-4 .card img {
+  background-color: #e6f4ec;
+  padding: 18px;
+  border-radius: 10px;
+  width: 75px;
+  margin-bottom: 20px;
+}
+
+.sec-4 .card h1 {
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: #222;
+}
+
+.sec-4 .card p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+}
+
+section .sec-4{
+  padding-top: 60px;
+  display: flex;
+}
+
+.sec-4 .txt-4{
+  padding-top: 100px;
+  text-align: justify;
+  padding-left: 1px;
+}
+
+.sec-4 .txt-4 h1{
+  color: #4D4D4D;
+  padding-bottom: 20px;
+}
+.sec-4 .txt-4 p{
+  color: #717171;
+  padding-bottom: 20px;
+}
+.sec-4 .txt-4 button{
+  background-color: #4CAF4F;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-family: sans-serif;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+
+
