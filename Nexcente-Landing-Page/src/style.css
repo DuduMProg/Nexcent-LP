@@ -216,3 +216,42 @@ section .sec-4{
 
 
 
+.sec-5 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  padding: 40px 40px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.sec-5 .txt-5{
+  padding-top: 20px;
+  text-align: justify;
+  padding-left: 1px;
+}
+
+.sec-5 .txt-5 h2{
+  color: #28a745;
+  
+}
+.sec-5 .txt-5 p {
+  color: #717171;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.sec-5 .txt-5 a{
+  color: #28a745;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  margin: 0 15px;
+  position: relative;
+  
+}
+
+/* fim sec-5 */
+
+
+
+
