@@ -389,4 +389,22 @@ section .sec-4{
 
 
 
+.sec-6-1 h1{
+  padding-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.center-6 button{
+  background-color: #4CAF4F;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+}
