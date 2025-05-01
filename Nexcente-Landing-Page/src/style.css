@@ -104,8 +104,9 @@ button span{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 30px 0;
+  padding-bottom: 20px;
   gap: 10px;
+  background-color: rgb(235, 235, 235);
 }
 
 .dot {
@@ -212,6 +213,60 @@ section .sec-4{
   align-items: center;
   gap: 8px;
   cursor: pointer;
+}
+
+
+
+
+.stats-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+  background-color: rgb(235, 235, 235);
+  font-family: sans-serif;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.text-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.text-content h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.text-content .highlight {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.text-content p {
+  color: #666;
+  font-size: 14px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(150px, 1fr));
+  gap: 20px;
+  flex: 1;
+  min-width: 300px;
+}
+
+.stat-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.stat-box .icon {
+  width: 32px;
+  height: 32px;
 }
 
 
@@ -389,11 +444,18 @@ section .sec-4{
 
 
 
-.sec-6-1 h1{
-  padding-top: 80px;
+.sec-6-1 {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: center;   
   justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  gap: 20px;      
+}
+.sec-6-1 h1{
+  font-size: 70px;
 }
 
 .center-6 button{
